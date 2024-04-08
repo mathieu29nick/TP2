@@ -13,9 +13,9 @@ import jakarta.enterprise.context.RequestScoped;
  *
  * @author rakot
  */
-@Named(value = "bean2")
+@Named(value = "bean3")
 @RequestScoped
-public class Bean2 {
+public class Bean3 {
 
     private int nombre;
 
@@ -37,6 +37,6 @@ public class Bean2 {
     }
 
     public String afficher() {
-        return "affichage_4?nb=" + nombre + "&faces-redirect=true";
+        return "affichage__4?nb=" + nombre + "&faces-redirect=true";
     }
 }
